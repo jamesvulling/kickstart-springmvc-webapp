@@ -2,6 +2,7 @@
 A basic Java web application, ready to roll.
 
 The application uses:
+
 * Maven2 for build, dependencies and project properties
 * Spring 3.0.5 core and MVC libraries
 * Sitemesh for page decoration
@@ -10,6 +11,7 @@ The application uses:
 * Hibernate 3.2.6ga (along with Spring Hibernate 2.0.8)
 
 After checking the project out, you can start a local Jetty server with:
+
 `mvn jetty:run`
 
 An override web.xml is applied to this Jetty to ensure static files (CSS, JS and images) are served using the DefaultServlet. All other URLs are mapped to spring-mvc.
