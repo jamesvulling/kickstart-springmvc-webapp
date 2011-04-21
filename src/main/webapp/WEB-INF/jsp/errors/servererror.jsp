@@ -1,0 +1,3 @@
+<%@page contentType="text/plain" %>
+
+Crap! Something went wrong...
